@@ -1,8 +1,8 @@
 # Laboratorio_robotica
 
-**Por Nicolas Guio y Andrés Serna**
+**Por Nicolas Guio**
 
-El objetivo principal de esta práctica de laboratorio era aprender a programar un robot industrial ABB IRB140 utilizando RAPID y controlar sus acciones mediante señales digitales de entrada y salida. Además, debíamos desarrollar la habilidad de manejar bucles, condicionales y estructuras de control en RAPID, así como comprender cómo configurar y utilizar el módulo de entradas y salidas digitales en el controlador IRC5.
+El objetivo principal de esta práctica fue la familiarización con el robot SCARA T6 de Epson y el software Epson RC +7.0, entre las habilidades a conseguir estuvieron: la comprensión de los comandos Move, Jump, Pallet y Pallet Outside, en el simulador y con el Robot.
 ## Contenido
 - [Resumen](#1)
 - [Parámetros DH](#2)
