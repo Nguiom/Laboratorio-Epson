@@ -3,21 +3,38 @@
 **Por Nicolas Guio**
 
 El objetivo principal de esta práctica fue la familiarización con el robot SCARA T6 de Epson y el software Epson RC +7.0, entre las habilidades a conseguir estuvieron: la comprensión de los comandos Move, Jump, Pallet y Pallet Outside, en el simulador y con el Robot.
-## Contenido
-- [Resumen](#1)
-- [Parámetros DH](#2)
-- [Descripción del código de programación](#3)
-- [Resultados](#4)
 
-<br>
 
-<a id='1'></a>
+## Codigo
 
-## Resumen
+La primero parte del codigo consta de la declaración de las variables "i,j" las cuales serviran para hacer unos ciclos mas adelante. Seguido se crea la función main en la cual se configura algunos parametros del robot tales como la velocidad y accerelaciones, y se mueve a la posición home. Por ultimo se crea una rutina llamada estado activo la cual se ejecuta 15 veces, en la que esta ejecuta ciertos movimientos dependiendo del estado de las entradas digitales. 
 
-En el presente informe se detallan las actividades realizadas en el laboratorio, que incluyeron el uso de Linux, ROS (Robotic Operating System), Python y MATLAB para llevar a cabo la simulación y control de una tortuga (turtle) en el simulador TurtleSim.
-
-## Parámetros DH
+´´´
+Global Integer i, j
+Function main
+	Motor On
+	Power High
+	Accel 30, 30
+	Speed 50
+	Home
+	#define estado_activo 15
+	On estado_activo
+	If Sw(8) Then
+		Call paletizado_base
+	EndIf
+	If Sw(9) Then
+		Call paletizado_z
+	EndIf
+	If Sw(10) Then
+		Call paletizado_S
+	EndIf
+	If Sw(11) Then
+		Call paletizado_externo
+	EndIf
+	Off estado_activo
+	Home
+Fend
+´´´
 
 El esquema que ilustra el robot pinza se presenta a continuación.
 
