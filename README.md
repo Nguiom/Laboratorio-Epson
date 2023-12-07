@@ -9,7 +9,7 @@ El objetivo principal de esta práctica fue la familiarización con el robot SCA
 
 La primero parte del codigo consta de la declaración de las variables "i,j" las cuales serviran para hacer unos ciclos mas adelante. Seguido se crea la función main en la cual se configura algunos parametros del robot tales como la velocidad y accerelaciones, y se mueve a la posición home. Por ultimo se crea una rutina llamada estado activo la cual se ejecuta 15 veces, en la que esta ejecuta ciertos movimientos dependiendo del estado de las entradas digitales. 
 
-´´´
+```
 Global Integer i, j
 Function main
 	Motor On
@@ -34,7 +34,7 @@ Function main
 	Off estado_activo
 	Home
 Fend
-´´´
+```
 
 El esquema que ilustra el robot pinza se presenta a continuación.
 
