@@ -1,0 +1,85 @@
+ENVT0100,LM:2023/10/26 15:44:41:765,DS:0000001073,CS:18733,MA:54-E1-AD-98-70-77,EI:           
+sVersion="2.0.0"
+bDisplayR=False
+bDisplayS=False
+bDisplayT=False
+nNumberOfJoints=4
+nNumberOfPoints=3
+Point1 {
+	nNumber=0
+	sLabel="Origen"
+	sDescription=""
+	nUndefined=0
+	rX=-113.612
+	rY=212.881
+	rZ=-145
+	rU=55
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point2 {
+	nNumber=1
+	sLabel="Ejex"
+	sDescription=""
+	nUndefined=0
+	rX=113.612
+	rY=212.881
+	rZ=-145
+	rU=55
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
+Point3 {
+	nNumber=2
+	sLabel="Ejey"
+	sDescription=""
+	nUndefined=0
+	rX=-113.612
+	rY=300
+	rZ=-145
+	rU=55
+	rV=0
+	rW=0
+	rR=0
+	rS=0
+	rT=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ1Flag=0
+	nJ2Flag=0
+	nJ4Flag=0
+	nJ6Flag=0
+	rJ1Angle=0
+	rJ4Angle=0
+	bSimVisible=False
+}
